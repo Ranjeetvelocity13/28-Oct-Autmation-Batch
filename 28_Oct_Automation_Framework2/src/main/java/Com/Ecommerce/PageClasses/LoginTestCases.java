@@ -24,6 +24,9 @@ public class LoginTestCases extends Ecommerce_BaseClass {
 	@FindBy(id = "Email")
 	public WebElement UserEmail;
 
+	@FindBy(id = "Email1")
+	public WebElement UserEmail1;
+	
 	@FindBy(id = "Password")
 	public WebElement Userpass;
 
