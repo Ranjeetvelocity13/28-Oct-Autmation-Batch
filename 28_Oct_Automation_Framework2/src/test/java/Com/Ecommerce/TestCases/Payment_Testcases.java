@@ -14,8 +14,10 @@ public class Payment_Testcases extends Ecommerce_BaseClass {
 	//Action & Actions
 	
 	Actions Act = new Actions(driver);
-
+        Actions Act1 = new Actions(driver);
 	WebElement Computer = driver.findElement(By.xpath("//a[contains(text(),'Computers ')]"));
+	WebElement Computer12 = driver.findElement(By.xpath("//a[contains(text(),'Computers123 ')]"));
+
 
 //	Act.moveToEement(Computer).perform();
 	
