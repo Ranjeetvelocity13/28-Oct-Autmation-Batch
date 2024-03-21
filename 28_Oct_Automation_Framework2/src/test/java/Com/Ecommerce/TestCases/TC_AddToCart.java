@@ -33,7 +33,8 @@ public class TC_AddToCart extends Ecommerce_BaseClass {
 //		logger.info("Click on the user login button");
 //		
 		TC_Ecommerce_AddToCart TEA = new TC_Ecommerce_AddToCart();
-		
+		TC_Ecommerce_AddToCart TEA1 = new TC_Ecommerce_AddToCart();
+
 		//Action & Actions
 		
 		Actions Act = new Actions(driver);
